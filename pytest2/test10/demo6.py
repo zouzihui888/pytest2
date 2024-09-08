@@ -1,0 +1,6 @@
+hour = int(input())
+minute = int(input())
+second = int(input())
+print(f'{hour:02}:{minute:02}:{second:02}')
+seconds_to_midnight = (24 * 60 * 60 - (hour*60*60+minute*60+second))
+print(f'距离午夜还剩余{seconds_to_midnight}秒')

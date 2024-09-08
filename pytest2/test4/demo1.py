@@ -1,0 +1,10 @@
+a = float(input())
+b = float(input())
+s = a + b
+j = a - b
+c = a * b 
+y = a / b
+print("{} + {} = {:.3f}".format(a,b,s))
+print("{} - {} = {:.3f}".format(a,b,j))
+print("{} * {} = {:.3f}".format(a,b,c))
+print("{} / {} = {:.3f}".format(a,b,y))
